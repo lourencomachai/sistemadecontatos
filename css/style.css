@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_area{
+    width: 300px;
+    height: 30px;
+}
+
+.input_area label{
+    width: 75px;
+    display: inline-block;
+}
+
+.input_area input{
+    width: 200px;
+    border-top: none;
+    border-bottom: solid 1px;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+
+.input_area input:focus{
+    outline: none;
+    border-bottom: solid 2px rgb(128, 126, 126);
+    transition: 2s;
+}
+
+.submit_area{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit_area input{
+    cursor: pointer;
+    background: #1ed406;
+    color: #fff;
+    font-size: 0.80em;
+}
+
+.dados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dados table{
+    width: 100%;
+    border: 2px solid #eee; 
+    padding: 0;
+}
+
+.dados table thead{
+    margin: 0;
+    border: none;
+}
+
+.dados table tr{
+    margin: 0;
+}
+
+.dados table th{
+    border: 2px solid #eee;
+    margin: 0;
+}
+
+.dados table td{
+    border: 2px solid #eee;
+}

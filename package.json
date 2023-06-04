@@ -1,0 +1,19 @@
+{
+  "name": "sistemadecontactos",
+  "version": "1.0.0",
+  "description": "Um sistema de registo de contatos baseado em javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lourencomachai/sistemadecontatos.git"
+  },
+  "author": "Lourenco Machai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lourencomachai/sistemadecontatos/issues"
+  },
+  "homepage": "https://github.com/lourencomachai/sistemadecontatos#readme"
+}
